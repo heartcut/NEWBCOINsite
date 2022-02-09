@@ -1,0 +1,110 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+  
+  /* Style the links inside the navigation bar */
+.topnav a,img {
+  float: right;
+  color: #0e0d0d;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+
+}
+.topnav a {
+  margin-top: 34px;
+
+}
+  /* Change the color of links on hover */
+.topnav a:hover {
+  color: rgb(240, 210, 40);
+}
+#navbarleft{
+  float: left;
+}
+  /* Add a color to the active/current link */
+.topnav a.active {
+  color: rgb(240, 210, 40);
+}
+
+.featurescolumn {
+  float: left;
+  width: 33.33%;
+}
+  
+  /* Clear floats after the columns */
+.featuresrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.github-button {
+  background: #823aa0;
+  color: #fff;
+  height: 70px;
+  min-width: 260px;
+  line-height: 24px;
+  font-size: 16px;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  appearance: auto;
+  -webkit-writing-mode: horizontal-tb !important;
+  font-style: ;
+  font-variant-ligatures: ;
+  font-variant-caps: ;
+  font-variant-numeric: ;
+  font-variant-east-asian: ;
+  font-weight: ;
+  font-stretch: ;
+  font-size: ;
+  font-family: ;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
