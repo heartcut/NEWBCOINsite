@@ -47,6 +47,21 @@ body {
   display: table;
   clear: both;
 }
+.featuresrow{
+  display:flex
+
+}
+@media (max-width: 900px) {
+  .featuresrow {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .featurescolumn {
+    width: 80%;
+    align-items: center;
+  }
+  
+}
 .github-button {
   display: inline-block;
   outline: none;
