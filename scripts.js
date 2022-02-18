@@ -7,7 +7,7 @@ window.onload = function () {
 
 async function getstatus() {
     try {
-        var uri = 'http://24.112.51.119:5000/api/statuscheck/'
+        var uri = 'http://api.newbcoin.page/api/statuscheck/'
         //var uri = 'http://127.0.0.1:5000/api/statuscheck/'
         var xhr = new XMLHttpRequest();
         xhr.open("GET", uri, false);
